@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<!--
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+        <title>STEMversity Challenge</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script type="text/javascript"> 
+$(document).ready(function(){ 
+    // hide #back-top first 
+   
+
+    
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 700);
+                    return false;
+                }
+            }
+        });
+    
+    $("#back-top").hide(); 
+    // fade in #back-top 
+    $(function () { 
+        $(window).scroll(function () { 
+            if ($(this).scrollTop() > 100) {$('#back-top').fadeIn();} else {$('#back-top').fadeOut();} 
+        }); 
+        // scroll body to 0px on click 
+        $('#back-top a').click(function (e) { 
+            e.preventDefault(); 
+            $('body,html').animate({ 
+                scrollTop: 0 
+            }, 800,function(){$("#back-bottom").show();}); 
+            return false; 
+        }); 
+        $("#back-bottom a").click(function(e){ 
+            e.preventDefault(); 
+            var currentElem = $(this); 
+            var scrollTopPos = $("div#topwrapper")[0].offsetHeight; 
+            $('body,html').animate({ 
+                scrollTop: scrollTopPos 
+            }, 800,function(){$(currentElem).parent().hide();}); 
+            return false; 
+        }); 
+    }); 
+}); 
+</script>
+	</head>
+	<body class="landing">
+        <p id="back-top"><a href="#top" class="" title="BackToTop"><span></span></a></p>
+		<!-- Header -->
+			<header id="header" class="alt">
+                <h1 style="font-size:0.85em"><strong><a href="index.html">The STEMversity Challenge</a></strong></h1>
+				<nav id="nav" style="font-size:0.85em">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#timeline">Timeline</a></li>
+						<li><a href="#partners">Partners</a></li>
+						<li><a href="#contact">Contact</a></li>
+<!--
+						<li><a href="generic.html">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+-->
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner" class="overlay">
+                <h2 style="font-size:40px">The&nbsp STEMversity &nbsp Challenge</h2>
+				<p style="color:white;">A scholarship to help Women and Underrepresented Minorities explore their passion for technology</p>
+				<ul class="actions">
+					<li><a href="#go" id="click" class="button special big">Apply Today!</a></li>
+				</ul>
+			</section>
+			<!-- One -->
+				<section id="about" class="wrapper style1">
+					<div class="container 75%">
+						<div class="row 200%">
+							<div class="6u 12u$(medium)">
+								<header class="major">
+									<h2>About</h2>
+									<p>What is our mission?</p>
+								</header>
+							</div>
+							<div class="6u$ 12u$(medium)">
+                                <p>College education is important, and so is paying for tuition! In our country, thousands of students interested in STEM are unable to pursue higher education due to their financial standing. Particularly, women and underrepresented minorities represent a small fraction of college bound STEM students. 
+                                </p>
+                                <p>
+                                This is why the blank scholarship was established. By providing an opportunity for women and underrepresented minorities to win a college scholarship, we hope to insight greater STEM interest within these groups. 
+                                </p>
+                                <p>
+                                Blank scholarship is provided by MyDeltaSchool, an online education provider established in 2012. MyDeltaSchool has been providing quality education in a variety of subjects related to STEM.
+                                </p>
+							</div>
+						</div>
+					</div>
+				</section>
+            <!-- Three -->
+				<section id="timeline" style="background-color:#F6F6F6" class="wrapper style1">
+					<div class="container">
+                        <header class="major special">
+                            <h2>Application Timeline</h2>
+                            <p>More information and dates</p>
+                        </header>
+                        <ul class="timeline">
+
+                            <!-- Item 1 -->
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Applications Open</span>
+                                        <span class="time-wrapper"><span class="time">May 1st, 2015</span></span>
+                                    </div>
+<!--                                    <div class="desc"></div>-->
+                                </div>
+                            </li>
+
+                            <!-- Item 2 -->
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Applications Close</span>
+                                        <span class="time-wrapper"><span class="time">July 15th, 2015</span></span>
+                                    </div>
+<!--                                    <div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>-->
+                                </div>
+                            </li>
+
+                            <!-- Item 3 -->
+                            <li>
+                                <div class="direction-l">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Judging</span>
+                                        <span class="time-wrapper"><span class="time">July 16th, 2015 - August 1st, 2015</span></span>
+                                    </div>
+<!--                                    <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>-->
+                                </div>
+                            </li>
+                            
+                            <!-- Item 3 -->
+                            <li>
+                                <div class="direction-r">
+                                    <div class="flag-wrapper">
+                                        <span class="flag">Awards!</span>
+                                        <span class="time-wrapper"><span class="time">August 2nd, 2015</span></span>
+                                    </div>
+<!--                                    <div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>-->
+                                </div>
+                            </li>
+
+                        </ul>
+<!--
+						
+						<div class="feature-grid">
+							<div class="feature">
+								<div class="image rounded"><img src="images/pic04.jpg" alt="" /></div>
+								<div class="content">
+									<header>
+										<h4>Applications are Open</h4>
+										<p>May 1st, 2015</p>
+									</header>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore esse tenetur accusantium porro omnis, unde mollitia totam sit nesciunt consectetur.</p>
+								</div>
+							</div>
+							<div class="feature">
+								<div class="image rounded"><img src="images/pic05.jpg" alt="" /></div>
+								<div class="content">
+									<header>
+										<h4>Application Deadline</h4>
+										<p>July 15th, 2015</p>
+									</header>
+									<p>Animi mollitia optio culpa expedita. Dolorem alias minima culpa repellat. Dolores, fuga maiores ut obcaecati blanditiis, at aperiam doloremque.</p>
+								</div>
+							</div>
+							<div class="feature">
+								<div class="image rounded"><img src="images/pic06.jpg" alt="" /></div>
+								<div class="content">
+									<header>
+										<h4>Judging</h4>
+										<p>July 15th, 2015 - August 1st, 2015</p>
+									</header>
+									<p>Maiores iusto inventore fugit architecto est iste expedita commodi sed, quasi feugiat nam neque mollitia vitae omnis, ea natus facere.</p>
+								</div>
+							</div>
+							<div class="feature">
+								<div class="image rounded"><img src="images/pic07.jpg" alt="" /></div>
+								<div class="content">
+									<header>
+										<h4>Awards</h4>
+										<p>August 8th, 2015</p>
+									</header>
+									<p>Vitae earum unde, autem labore voluptas ex, iste dolorum inventore natus consequatur iure similique obcaecati aut corporis hic in! Porro sed.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+-->
+				</section>
+
+			<!-- Two -->
+				<section id="partners" style="background-color:white;padding-bottom:7%;"class="wrapper style2 special">
+					<div class="container">
+						<header class="major">
+							<h2>Partners</h2>
+                            <p>If you are interested in partnering with us, send us a quick email!</p>
+
+<!--							<p>Here are the amazing companies that have helped make this scholarship possible</p>-->
+						</header>
+<!--
+						<div class="row 150%">
+							<div class="6u 12u$(xsmall)">
+								<div class="image fit captioned">
+									<img src="images/pic02.jpg" alt="" />
+									<h3>Google</h3>
+								</div>
+							</div>
+							<div class="6u$ 12u$(xsmall)">
+								<div class="image fit captioned">
+									<img src="images/pic03.jpg" alt="" />
+									<h3>Microsoft</h3>
+								</div>
+							</div>
+                            
+						</div>
+-->
+                        <ul class="actions">
+                            <li><a href="mailto:partner@anuraag.me" class="button special big">Partner with us!</a></li>
+                        </ul>
+						
+					</div>
+				</section>
+
+			
+			<!-- Four -->
+				<section id="contact" class="wrapper style3 special">
+					<div class="container">
+						<header class="major">
+							<h2>Contact</h2>
+							<p style="color:white">Drop us a line for any questions, concerns, or philosophies on life.</p>
+						</header>
+						<ul class="actions">
+							<li><a href="mailto:hello@anuraag.me" class="button special big">Get in touch</a></li>
+						</ul>
+					</div>
+				</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-facebook"></a></li>
+						<li><a href="#" class="icon fa-twitter"></a></li>
+						<li><a href="#" class="icon fa-instagram"></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; 2015 My Delta School LLC.</li>
+<!--
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+-->
+					</ul>
+				</div>
+			</footer>
+
+	</body>
+</html>
